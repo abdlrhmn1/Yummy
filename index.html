@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Yummy</title>
+</head>
+
+<body>
+    <div class="loading"> </div>
+    <!-- sidebar -->
+    <div id="sidebar" class="d-flex">
+        <div class="sidebar-inner pt-3 position-relative">
+            <h6 class="pt-3 search-btn" onclick="search()">search</h6 class="pt-3">
+            <h6 class="pt-3 categ-btn" onclick="getCategory()">Categories</h6 class="pt-3">
+            <h6 class="pt-3 area-btn" onclick="getArea()">Area</h6 class="pt-3">
+            <h6 class="pt-3 ingred-btn" onclick="getIngredients()">Ingredients</h6 class="pt-3">
+            <h6 class="pt-3 contact-btn" onclick="getContacts()">Contact Us</h6 class="pt-3">
+            <div class="social-links ">
+                <i class="fa fa-brands fa-facebook "></i>
+                <i class="fa fa-brands fa-twitter  "></i>
+                <i class="fa fa-solid fa-globe"></i>
+                <p class="py-3">Copyright Â© 2019 All Rights
+                    Reserved.</p>
+            </div>
+        </div>
+        <img src="images/logo.png" class=" logo position-absolute" alt="">
+        <i class="fa-solid toggle-btn open-close-icon fa-2x fa-align-justify align-self-center px-4 text-black"></i>
+
+    </div>
+    <div class="search-container">
+
+    </div>
+    <div class="dataContainer container">
+        <div class=" row Data pt-5 g-4">
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
